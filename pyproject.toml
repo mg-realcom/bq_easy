@@ -1,13 +1,13 @@
 [tool.poetry]
 name = "bq_easy_zfullio"
-version = "0.0.3"
+version = "1.0.1"
 description = "Простой экспорт из Pandas Dataframe в BQ"
 authors = ["viktor <vi.dave@yandex.ru>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = ">=3.10,<3.11"
-google-cloud-bigquery = "^3.3"
+python = ">=3.10"
+google-cloud-bigquery = "^3"
 
 [tool.poetry.dev-dependencies]
 
